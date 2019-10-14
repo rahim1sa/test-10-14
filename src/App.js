@@ -29,7 +29,7 @@ class App extends React.Component{
   }
 
   render(){
-    const posts = this.state;
+    const posts = this.state.state;
     return(
       <div>
         <Posts posts={posts}/>
